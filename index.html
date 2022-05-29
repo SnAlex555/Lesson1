@@ -11,10 +11,12 @@
         <div class="container" >
             <div class="logo" >
                 <img src="../images/logo.png" alt="logo">
-        </div>
+            </div>
         <div>
             <button type="button">ADD MOVIE</button>
-    </div>
+        </div>
+        </div>
+
     <h1>FIND YOUR MOVIE</h1>
     <form>
         <input type="text" placeholder="What do you want to watch?">
@@ -23,9 +25,23 @@
     </header>
     <div class="menu-bar">
         <nav>
-            
+            <ul>
+                <li><a href="1">ALL</a></li>
+                <li><a href="2">DOCUMENTARY</a></li>
+                <li><a href="3">COMEDY</a></li>
+                <li><a href="4">HORROR</a></li>
+                <li><a href="5">CRIME</a></li>
+            </ul>
         </nav>
-    </div>
+        <form>
+            <label for="sort_by"></label>
+            <select name="" id="sort-by">
+                <option value="1">RELEASE DATE</option>
+                <option value="2">GENRE</option>
+                <option value="3">AGE RESTRICTIONS</option>
+            </select>
+        </form>
+    </div> 
     
 </body>
 </html>
